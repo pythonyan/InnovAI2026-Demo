@@ -2,7 +2,7 @@
 
 Demo presentata alla sessione **InnovAI 2026**.
 
-Mostra come costruire un **AI Agent** con [Semantic Kernel](https://github.com/microsoft/semantic-kernel) e [Azure OpenAI](https://azure.microsoft.com/products/ai-services/openai-service) integrato con **Microsoft Copilot Studio** tramite una HTTP Action.
+Mostra come costruire un **AI Agent** con [Microsoft Agentic Framework](https://github.com/microsoft/semantic-kernel) e [Azure OpenAI](https://azure.microsoft.com/products/ai-services/openai-service) integrato con **Microsoft Copilot Studio** tramite una HTTP Action.
 
 Il caso d'uso è la gestione delle segnalazioni di un ente pubblico: il cittadino invia una segnalazione via email, l'agente AI cerca ticket simili nel CRM e genera una risposta personalizzata.
 
@@ -32,7 +32,7 @@ L'endpoint `POST /api/similarity` è esposto anche per **Copilot Studio** (auten
 | Componente | Tecnologia |
 |---|---|
 | Runtime | .NET 10 / ASP.NET Core |
-| AI Orchestration | Semantic Kernel |
+| AI Orchestration | Microsoft Agentic Framework |
 | LLM | Azure OpenAI (gpt-4o) |
 | Embedding + Vector Search | Azure OpenAI (text-embedding-3-large) + SQL Server 2022 |
 | Text Analytics | Azure AI Language |
@@ -67,7 +67,7 @@ Per la documentazione completa di setup, configurazione e integrazione Copilot S
 InnovAI.Demo.Api/          API ASP.NET Core
 ├── Controllers/           MailController, SimilarityController
 ├── Services/              AI Agent, Vector Search, Email, CRM proxy
-├── Plugins/               CrmTicketPlugin (Semantic Kernel)
+├── Plugins/               CrmTicketPlugin (Microsoft Agentic Framework)
 ├── Stubs/                 Mock CRM e servizi opzionali
 ├── Settings/              Classi di configurazione tipizzata
 ├── Data/                  DbContext + Entity (EF Core)
