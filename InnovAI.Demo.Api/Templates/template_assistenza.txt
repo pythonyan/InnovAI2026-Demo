@@ -1,0 +1,10 @@
+
+Abbiamo ricevuto la seguente segnalazione
+Tipologia segnalazione: {tipologia_segnalazione}
+Nome: {Nome}
+Cognome: {Cognome}
+Descrizione: {DescrizioneProblema}
+Email: {Email}
+Telefono: {Telefono}
+Sentiment: {Sentiment}
+{SegnalazioniSimili}

@@ -1,0 +1,15 @@
+bin/
+obj/
+**/logs/
+*.user
+.vs/
+appsettings.Production.json
+appsettings.Staging.json
+
+# Secrets — mai committare
+secrets.json
+**/secrets.json
+.env
+
+# User Secrets (sono fuori dal progetto ma per sicurezza)
+**/Microsoft.UserSecrets/
