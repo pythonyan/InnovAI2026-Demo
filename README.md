@@ -59,6 +59,8 @@ Swagger UI: `https://localhost:7100/swagger`
 
 Per la documentazione completa di setup, configurazione e integrazione Copilot Studio vedi [`InnovAI.Demo.Api/README.md`](InnovAI.Demo.Api/README.md).
 
+Il progetto Copilot Studio companion è disponibile su: [InnovAI2026-Demo-CopilotStudio](https://github.com/pythonyan/InnovAI2026-Demo-CopilotStudio)
+
 ---
 
 ## Struttura del repository
